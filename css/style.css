@@ -112,7 +112,7 @@ header {
 }
 
 .header-site-info .link {
-    padding: 32px 0;
+    padding: 29px 0;
 }
 
 .site-info .link:hover, 
@@ -121,6 +121,7 @@ header {
 }
 .link.current {
     color: var(--btn-color);
+    border-bottom: 4px solid var(--btn-color); 
 }
 .contacts a {
     color: var(--paragraph-color);

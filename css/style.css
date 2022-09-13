@@ -13,6 +13,15 @@
 }
 /* ^color^ */
 
+html {
+    box-sizing: border-box;
+}
+.container {
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 ul {
     list-style: none
     }
@@ -37,12 +46,6 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
 }
-.container {
-    width: 1600px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 
 /* Section header 1-2 pages*/
 
@@ -66,8 +69,8 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    
 }
+
 
 /* Section navigation 1-2 pages */
 

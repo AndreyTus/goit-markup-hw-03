@@ -341,8 +341,8 @@ img {
     margin-left: 8px;
 }
 .skill:nth-child(3n + 2) {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 29px;
+    margin-right: 29px;
 }
 .skill:not(:nth-child(n + 7)) {
     margin-bottom: 30px;

@@ -52,7 +52,6 @@ body {
 /* Section header 1-2 pages*/
 
 header {
-    width: 1600px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: var(--header-color);
@@ -70,13 +69,12 @@ header {
     display: flex;  
 }
 
-
 /* Section navigation 1-2 pages */
 
 .logo-web {
     margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
     color: var(--btn-color);
     font-family: 'Raleway';
@@ -160,6 +158,9 @@ header {
     height: 38px;
     padding: 6px 22px;
 }
+.btn1:hover, .btn1:focus {
+    cursor: pointer;
+}
 .btn1 {
     background-color: var(--btn-color);
     color: var(--btn-active-color);
@@ -171,6 +172,7 @@ header {
     border-radius: 4px;
     width: 216px;
     height: 50px;
+    border: none;
 }
 
 /* Pages Studio */
@@ -179,8 +181,6 @@ header {
 .hero {
     background: var(--footer-color);
     padding: 200px 0;
-    width: 1600px;
-    margin: auto;
     text-align: center;
 }
 .hero-title {
@@ -246,7 +246,6 @@ img {
 .visual-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 270px;
     gap: 10px;
 }
@@ -281,7 +280,7 @@ img {
 }
 
 .section-team {
-    width: 1600px;
+    /* width: 1600px; */
     margin: auto;
     background-color: var(--btn-background);
 }
@@ -296,15 +295,9 @@ img {
     letter-spacing: 0.03em
 }
 .team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     background: var(--btn-active-color);
-    border-radius: 0 0 4px 4px;
-    border-right: 1px solid var(--paragraph-color);
-    border-left: 1px solid var(--paragraph-color);
-    border-bottom: 2px solid var(--paragraph-color);
-    
+    border-radius: 0 0 4px 4px; 
 }
 
 /* Pages Portfolio - Section main*/
@@ -328,6 +321,9 @@ img {
     border-left: 1px solid var(--border-skill);
     border-bottom: 1px solid var(--border-skill);
 }
+.maket h2 {
+    margin-bottom: 4px;
+}
 .portfolio {
     width: 1200px;
     margin: 94px auto;
@@ -335,7 +331,7 @@ img {
 .work-place {
     display: flex;
     justify-content: center;
-    padding-bottom: 34px;
+    margin-bottom: 50px;
 }
 .place:not(:first-child) {
     margin-left: 8px;
@@ -350,15 +346,11 @@ img {
 .list-skill {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
-    margin: 0 auto;
 }
 
 /* Section footer 1-2 pages*/
 
 .footer-info {
-    width: 1600px;
-    margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-color);
